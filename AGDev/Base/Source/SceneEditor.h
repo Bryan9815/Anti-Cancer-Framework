@@ -19,7 +19,7 @@ public:
     ~SceneEditor();
 
     void Init();
-    void Update(double dt = 0.333f);
+    void Update(double dt);
     void Render();
     void AddPoint(Vector3 point);
     void DeletePoint();

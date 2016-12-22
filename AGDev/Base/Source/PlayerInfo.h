@@ -29,7 +29,7 @@ public:
 	~CPlayerInfo(void);
 
 	void Init(void);
-	void Update(double dt = 0.0333f);
+	void Update(double dt);
 	void Reset(void);
 
 	void SetPos(const Vector3& pos);
@@ -63,11 +63,11 @@ public:
 	double GetFallAcceleration(void) const;
 	GroundEntity* GetTerrain(void);
 
-	void UpdateJumpUpwards(double dt = 0.0333f);
-	void UpdateFreeFall(double dt = 0.0333f);
+	void UpdateJumpUpwards(double dt);
+	void UpdateFreeFall(double dt);
 
 	// Constrain the position within the borders
-	void Constrain(double dt = 0.0333f);
+	void Constrain(double dt);
 
 	// Handling Camera
 	void AttachCamera(FPSCamera* _cameraPtr);
