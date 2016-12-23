@@ -21,6 +21,7 @@
     <ClCompile Include="Source\OBJMesh.cpp" />
     <ClCompile Include="Source\PlayerInfo.cpp" />
     <ClCompile Include="Source\SceneEditor.cpp" />
+    <ClCompile Include="Source\SceneGraph.cpp" />
     <ClCompile Include="Source\SceneNode.cpp" />
     <ClCompile Include="Source\SceneText.cpp" />
     <ClCompile Include="Source\SkyBoxEntity.cpp" />
@@ -37,6 +38,7 @@
     <ClInclude Include="Source\OBJMesh.h" />
     <ClInclude Include="Source\PlayerInfo.h" />
     <ClInclude Include="Source\SceneEditor.h" />
+    <ClInclude Include="Source\SceneGraph.h" />
     <ClInclude Include="Source\SceneNode.h" />
     <ClInclude Include="Source\SceneText.h" />
     <ClInclude Include="Source\SkyBoxEntity.h" />

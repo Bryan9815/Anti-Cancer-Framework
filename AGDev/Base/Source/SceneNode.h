@@ -29,9 +29,14 @@ public:
     bool Delete_ChildNode(Node* Child_Node);
     bool Delete_AllChildren();
 
-    bool Detach_Child(EntityBase* Child_Entity);
-    bool Detach_ChildNode(Node* Child_Node);
+    Node* Detach_Child(EntityBase* Child_Entity);
+    Node* Detach_ChildNode(Node* Child_Node);
     bool Detach_AllChildren();
+
+    EntityBase* Find_ChildEntity(EntityBase* Child_Entity);
+    Node* Find_ChildNode(EntityBase* Child_Entity);
+
+    int Get_NumberOfChilren();
     
     void Render(void);
 private:
