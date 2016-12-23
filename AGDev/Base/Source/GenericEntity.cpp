@@ -25,6 +25,13 @@ void GenericEntity::Render()
 	modelStack.Translate(position.x, position.y, position.z);
 	modelStack.Scale(scale.x, scale.y, scale.z);
 	RenderHelper::RenderMesh(modelMesh);
+	if (GetLODStatus() == true)
+	{
+		if (theDetailLevel != NO_DETAILS)
+			RenderHelper::RenderMesh(GetLODMesh());
+	}
+	else
+		RenderHelper::RenderMesh(modelMesh);
 	modelStack.PopMatrix();
 }
 
