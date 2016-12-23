@@ -1,6 +1,6 @@
 #include "SceneGraph.h"
 #include "MeshBuilder.h"
-#include "../EntityManager.h"
+#include "EntityManager.h"
 #include "GraphicsManager.h"
 #include "RenderHelper.h"
 
