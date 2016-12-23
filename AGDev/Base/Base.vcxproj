@@ -15,7 +15,9 @@
     <ClCompile Include="Source\EntityManager.cpp" />
     <ClCompile Include="Source\FPSCamera.cpp" />
     <ClCompile Include="Source\GenericEntity.cpp" />
+    <ClCompile Include="Source\Grid.cpp" />
     <ClCompile Include="Source\GroundEntity.cpp" />
+    <ClCompile Include="Source\LevelOfDetails.cpp" />
     <ClCompile Include="Source\Light.cpp" />
     <ClCompile Include="Source\main.cpp" />
     <ClCompile Include="Source\OBJMesh.cpp" />
@@ -25,6 +27,7 @@
     <ClCompile Include="Source\SceneNode.cpp" />
     <ClCompile Include="Source\SceneText.cpp" />
     <ClCompile Include="Source\SkyBoxEntity.cpp" />
+    <ClCompile Include="Source\SpatialPartition.cpp" />
     <ClCompile Include="Source\SpriteEntity.cpp" />
     <ClCompile Include="Source\TextEntity.cpp" />
   </ItemGroup>
@@ -33,7 +36,9 @@
     <ClInclude Include="Source\EntityManager.h" />
     <ClInclude Include="Source\FPSCamera.h" />
     <ClInclude Include="Source\GenericEntity.h" />
+    <ClInclude Include="Source\Grid.h" />
     <ClInclude Include="Source\GroundEntity.h" />
+    <ClInclude Include="Source\LevelOfDetails.h" />
     <ClInclude Include="Source\Light.h" />
     <ClInclude Include="Source\OBJMesh.h" />
     <ClInclude Include="Source\PlayerInfo.h" />
@@ -42,6 +47,7 @@
     <ClInclude Include="Source\SceneNode.h" />
     <ClInclude Include="Source\SceneText.h" />
     <ClInclude Include="Source\SkyBoxEntity.h" />
+    <ClInclude Include="Source\SpatialPartition.h" />
     <ClInclude Include="Source\SpriteEntity.h" />
     <ClInclude Include="Source\TextEntity.h" />
   </ItemGroup>
