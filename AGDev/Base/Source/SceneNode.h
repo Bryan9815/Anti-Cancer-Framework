@@ -1,5 +1,5 @@
-#ifndef ENTITY_MANAGER_H
-#define ENTITY_MANAGER_H
+#ifndef SCENE_NODE_H
+#define SCENE_NODE_H
 
 #include "Vector3.h"
 #include <vector>
@@ -23,7 +23,6 @@ public:
 
     Node* Add_ChildEntity(EntityBase* Child_Entity);
     Node* Add_ChildNode(Node* Child_Node);
-    
 
     bool Delete_Child(EntityBase* Child_Entity);
     bool Delete_ChildNode(Node* Child_Node);
@@ -33,8 +32,8 @@ public:
     Node* Detach_ChildNode(Node* Child_Node);
     bool Detach_AllChildren();
 
-    EntityBase* Find_ChildEntity(EntityBase* Child_Entity);
-    Node* Find_ChildNode(EntityBase* Child_Entity);
+    Node* Find_ChildEntity(EntityBase* Child_Entity);
+    Node* Find_ChildNode(Node* Child_Entity);
 
     int Get_NumberOfChilren();
     
