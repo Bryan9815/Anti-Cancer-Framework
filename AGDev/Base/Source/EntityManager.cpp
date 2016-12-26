@@ -5,6 +5,16 @@
 #include <iostream>
 using namespace std;
 
+// Constructor
+EntityManager::EntityManager()
+{
+}
+
+// Destructor
+EntityManager::~EntityManager()
+{
+}
+
 // Update all entities
 void EntityManager::Update(double _dt)
 {
@@ -79,16 +89,6 @@ bool EntityManager::RemoveEntity(EntityBase* _existingEntity)
 	}
 	// Return false if not found
 	return false;
-}
-
-// Constructor
-EntityManager::EntityManager()
-{
-}
-
-// Destructor
-EntityManager::~EntityManager()
-{
 }
 
 // Check for overlap
