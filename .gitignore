@@ -2,3 +2,6 @@ AGDev/Common/Debug/
 AGDev/NYP_Framework.sdf
 AGDev/Base/Debug/
 *.opensdf
+AGDev/glfw/COPYING.txt
+AGDev/glfw/include/GLFW/glfw3.h
+AGDev/glfw/include/GLFW/glfw3native.h
