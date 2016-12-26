@@ -242,7 +242,7 @@ CGrid CSpatialPartition::GetGrid(const int xIndex, const int yIndex) const
 /********************************************************************************
  Get vector of objects from this Spatial Partition
  ********************************************************************************/
-vector<EntityBase*> CSpatialPartition::GetObjects(Vector3 position, const float radius)
+vector<EntityBase*> CSpatialPartition::GetObjectsInGrid(Vector3 position)
 {
 	// Get the indices of the object's position
 	int xIndex = (((int)position.x - (-xSize >> 1)) / (xSize / xNumOfGrid));
