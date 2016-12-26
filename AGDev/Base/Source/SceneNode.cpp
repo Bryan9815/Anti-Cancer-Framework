@@ -55,9 +55,10 @@ Node* Node::Add_ChildEntity(EntityBase* Child_Entity)
 {
     Node* child_node = Create::node(Child_Entity);
     ChildrenList.push_back(child_node);
+    return child_node;
 }
 
-Node* Node::Add_ChildNode(Node* Child_Node)
+void* Node::Add_ChildNode(Node* Child_Node)
 {
     ChildrenList.push_back(Child_Node);
 }
@@ -88,7 +89,7 @@ bool Node::Delete_Child(EntityBase* Child_Entity)
 
 bool Node::Delete_ChildNode(Node* Child_Node)
 {
-
+    return false;
 }
 
 bool Node::Delete_AllChildren()
@@ -138,7 +139,7 @@ Node* Node::Detach_ChildNode(Node* Child_Node)
 
 bool Node::Detach_AllChildren()
 {
-
+    return false;
 }
 
 Node* Node::Find_ChildEntity(EntityBase* Child_Entity)
