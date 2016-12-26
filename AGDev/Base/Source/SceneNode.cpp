@@ -58,7 +58,7 @@ Node* Node::Add_ChildEntity(EntityBase* Child_Entity)
     return child_node;
 }
 
-void* Node::Add_ChildNode(Node* Child_Node)
+void Node::Add_ChildNode(Node* Child_Node)
 {
     ChildrenList.push_back(Child_Node);
 }
