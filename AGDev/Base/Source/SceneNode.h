@@ -22,7 +22,7 @@ public:
     vector<Node*>& Get_ChildrenList();
 
     Node* Add_ChildEntity(EntityBase* Child_Entity);
-    Node* Add_ChildNode(Node* Child_Node);
+    void* Add_ChildNode(Node* Child_Node);
 
     bool Delete_Child(EntityBase* Child_Entity);
     bool Delete_ChildNode(Node* Child_Node);
