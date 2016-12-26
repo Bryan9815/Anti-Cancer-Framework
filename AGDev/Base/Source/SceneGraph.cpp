@@ -67,7 +67,7 @@ Node* CSceneGraph::DetachNode(Node* theNode)
 // Get a Node using the pointer to the node
 Node* CSceneGraph::GetNode(EntityBase* theEntity)
 {
-    return theRoot->Find_ChildNode(theEntity);
+    return theRoot->Find_ChildEntity(theEntity);
 }
 
 // Get a Node using its ID
