@@ -30,7 +30,7 @@ void FPSCamera::Init(const Vector3& pos, const Vector3& target, const Vector3& u
 	right.Normalize();
 	this->up = defaultUp = right.Cross(view).Normalized();
 	this->MouseResetPosition = MouseResetPosition;
-	blahblahblah
+	moretesting
 }
 
 void FPSCamera::Update(double dt)
