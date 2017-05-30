@@ -32,6 +32,7 @@ void FPSCamera::Init(const Vector3& pos, const Vector3& target, const Vector3& u
 	this->MouseResetPosition = MouseResetPosition;
 
 	this->MouseResetPosition = pos;
+	this is nonsense to test.
 }
 
 void FPSCamera::Update(double dt)
